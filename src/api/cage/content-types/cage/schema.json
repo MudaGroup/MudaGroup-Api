@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cages",
+  "info": {
+    "singularName": "cage",
+    "pluralName": "cages",
+    "displayName": "Cage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "project_status": {
+      "type": "string"
+    },
+    "project_location": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}

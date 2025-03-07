@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "worship_places",
+  "info": {
+    "singularName": "worship-place",
+    "pluralName": "worship-places",
+    "displayName": "WorshipPlace"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "desc": {
+      "type": "blocks"
+    },
+    "project_status": {
+      "type": "string"
+    },
+    "project_location": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}
